@@ -14,4 +14,12 @@
       <ion-label>{{book}}</ion-label>
     </ion-item>
   </ion-list>
+  <ion-grid>
+    <ion-row *ngFor="let row of games">
+      <ion-col>{{row.name}}</ion-col>
+      <ion-col>{{row.rating}}</ion-col>
+      <ion-col><ion-img src="{{row.src}}" alt="{{row.name}}"></ion-img></ion-col>
+      
+    </ion-row>
+  </ion-grid>
 </ion-content>
