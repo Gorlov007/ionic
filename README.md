@@ -5,6 +5,6 @@
 # Install app
 
 ```
-nmp install
+npm install
 ionic serve
 ```
