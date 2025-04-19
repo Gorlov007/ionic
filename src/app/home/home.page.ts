@@ -13,5 +13,5 @@ export class HomePage {
   press_me(){
   this.mayname = this.mayname + "!"
   }
-
+  books: string[]=["Поваренная книга анархиста","Бойцовский клуб"]
 }
