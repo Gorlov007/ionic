@@ -10,5 +10,8 @@ export class HomePage {
 
   constructor() {}
   mayname:string = "Павел!"
+  press_me(){
+  this.mayname = this.mayname + "!"
+  }
 
 }
